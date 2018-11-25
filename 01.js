@@ -1,6 +1,6 @@
 function read01(){
 	require('fs').readFile('D:/SVN/tempJs/my.txt',function(err,data){
-		alert();
+		//alert();
 		console.log(data.toString());
 	})
 }
